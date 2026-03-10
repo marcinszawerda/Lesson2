@@ -47,6 +47,10 @@ class Tenant(BaseModel):
         assert isinstance(data, dict), "Expected a dictionary of tenants"
         return {key: Tenant(**tenant) for key, tenant in data.items()}
     
+class Bill:
+    kwota: float
+    data_platnosci: str
+    apartment: str
 
 class Manager:
     def __init__(self, parameters: Parameters):

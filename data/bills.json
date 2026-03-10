@@ -1,0 +1,8 @@
+{
+ "bill1":{
+    "kwota: float": "1500.0",
+    "data_platnosci: str": "2024-02-01",
+    "apartment: str": "apart-polanka"
+    }
+
+}
